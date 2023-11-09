@@ -20,6 +20,7 @@ describe('e2e:osds-button', () => {
   let linkElement: E2EElement;
   let buttonElement: E2EElement;
   let checkSubmit: jest.Mock;
+  let newVariable: any;
 
   afterEach(() => {
     jest.clearAllMocks();
